@@ -1,0 +1,8 @@
+services:
+  main:
+    build: .
+    tty: true
+    environment:
+      ALTSERVER_ANISETTE_SERVER: "https://ani.sidestore.io/"
+    volumes:
+      - /var/run:/var/run

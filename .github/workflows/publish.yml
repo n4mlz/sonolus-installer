@@ -27,5 +27,5 @@ jobs:
         with:
           push: true
           tags: |
-            ghcr.io/sidestore/altcon:latest
+            ghcr.io/n4mlz/sonolus-installer:latest
           platforms: linux/386,linux/amd64,linux/arm/v7,linux/arm64/v8
