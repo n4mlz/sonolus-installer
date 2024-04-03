@@ -1,6 +1,7 @@
 name: Publish docker image anisette_server
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - 'main'
