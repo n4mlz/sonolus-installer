@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sonolus="Sonolus_0.8.0.ipa"
+sonolus="Sonolus_0.8.1.ipa"
 
 printf "\nPlug in your idevice and enter your passcode.\n"
 printf "=============================================\n"
