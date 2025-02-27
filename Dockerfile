@@ -13,7 +13,7 @@ SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN ./get-latest-files.sh && \
     rm get-latest-files.sh
 
-ENV sonolus="Sonolus_0.8.9.ipa"
+ENV sonolus="Sonolus_0.8.10.ipa"
 
 RUN curl -#O "https://download.sonolus.com/${sonolus}"
 
